@@ -1,0 +1,8 @@
+log:
+  isStdout: true
+  logFile: logs/study.log
+  level: 4   #0,1,2,3,4,5
+dataPath: 
+  filePath: ./data
+dataUri:
+  testUri: http://mirrors.163.com/

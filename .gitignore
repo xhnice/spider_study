@@ -1,0 +1,16 @@
+test
+vendor
+*.exe
+logs
+*.log
+*.lock
+.idea
+.vscode
+debug.test
+debug
+Dockerfile*
+static
+templates
+config.*.yaml
+data
+test
