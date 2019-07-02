@@ -82,6 +82,8 @@ func ParseStudy(result *entity.RequestResult) *entity.ParseRequest {
 		}
 	}
 
+	// logger.Infof("body: %s", body)
+
 	if err == nil {
 		if !utils.CheckURLPath(source) {
 			// 异步写入到文件

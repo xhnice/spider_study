@@ -50,7 +50,7 @@ func (s *Scheduler) Run() {
 	defer utils.Recover("[Scheduler][Run]")
 
 	go s.scheduler.Run()
-	time.Sleep(2 * time.Second)
+	time.Sleep(1 * time.Second)
 	out := s.scheduler.Worker()
 	for i := 0; i < int(s.WorkerCount); i++ {
 		s.worker(s.scheduler.Worker(), out, s.scheduler)
